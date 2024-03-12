@@ -81,7 +81,7 @@ carrito.addEventListener("click", function(){
     mostrarElemtrosLista()
 })
 
-function mostrarElementosLista() {
+function mostrarElemtrosLista() {
     productosCompra.innerHTML = ""
     valortotal = 0
     for (let i = 0; i < lista.length; i++){
@@ -109,7 +109,7 @@ function eliminar(indice){
         numero.classList.remove("diseñoNumero")
     }
     visualizarProductos()
-    mostrarElementosLista()
+    mostrarElemtrosLista()
 }
 
 x.addEventListener("click", function(){
